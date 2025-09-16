@@ -1,0 +1,25 @@
+
+ul, li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	display:inline-block;
+}
+
+.heading-pri{
+	font-size:32px;
+	color:#010101;
+	font-weight:700;
+	margin-bottom:25px;
+}
+.heading-sec{
+	font-size:20px;
+	color:#313841;
+	font-weight:400;
+	
+	
+}
+.w-100{
+	width:100%;
+}

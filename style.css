@@ -1,0 +1,176 @@
+**{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	line-height:1.5;
+}
+
+.hero-Section{
+	background-color: #fcdb00;
+	padding:60px 0 105px;
+}
+body{
+    font-family: "PT Sans", sans-serif;
+}
+
+header .navbar-default .navbar-brand{
+	padding:0;
+}
+
+.hero-Section .navbar-default{
+	background:none;
+	border:none;
+	box-shadow:none;
+	margin-bottom:70px;
+}
+
+.hero-Section .navbar-default .navbar-right a{
+	font-size:22px;
+	font-weight:700;
+	color:#010101;
+	margin-left:60px;
+	padding:10px;
+	text-transform:capitalize;
+	 
+}
+
+.hero-Section .inspiration{
+	padding:70px 0 0;
+}
+
+.hero-Section .inspiration p{
+	font-size:16px;
+	font-weight:400;
+	color:#555555;
+	margin-bottom:30px;
+}
+
+.hero-Section .inspiration li{
+	display: inline-block;
+	margin-right:20px;
+}
+
+.hero-Info .inspiration li a{
+	font-size:42px;
+	color:#010101;
+	padding:10px;
+}
+
+.hero-Info .ipad{
+	margin-left:20%;
+}
+
+
+.features-section{
+	padding:115px 0 75px;
+}
+
+.features-section .feature-Info{
+	margin-bottom:95px;
+}
+
+.features-section .features-thumbnail{
+	display:table;
+	clear:both;
+	width:100%;
+    margin-bottom:90px;
+}
+
+.features-section .features-thumbnail i{
+	font-size: 50px;
+	color: #010101;
+}
+.thumbnail-Info h3{
+	font-size:22px;
+	font-weight:700;
+	color:#010101;
+	text-transform:capitalize;
+	margin:0 0 15px;
+}
+.thumbnail-Info p{
+	font-size:16px;
+	font-weight:400;
+	color:#898989;
+	
+}
+
+
+
+.footer{
+	background-color:#010101;
+	padding:90px 0 135px;
+}
+
+.footer .footer-heading .heading-pri{
+	color:#fcdb00;
+	margin-bottom:35px;
+}
+.footer .footer-heading .heading-sec{
+	margin-bottom:35px;
+	font-family:font-family: "Open Sans", sans-serif;
+	color:#898989;
+}
+.footer .contact-form .submit{
+	background-color: #fcdb00;
+	border:2px solid #fcdb00;
+	text-transform:uppercase;
+	color:#010101;
+	font-size:16px;
+	font-weight:700;
+	transition: all 0.5s ease-in-out;
+	height:40px;
+	
+}
+.footer .contact-form .submit:hover{
+	color:#fcdb00;
+	background-color:#010101;
+}
+.footer .social-list li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.footer .social-list li i{
+	font-size: 42px;
+	color: #fcdb00;
+}
+.footer .form-group{
+	margin-bottom:80px;
+	height:auto;
+}
+.footer .contact-form .social-list{
+	margin-bottom:130px;
+}
+
+.footer .footer-list li, .footer .footer-list li a{
+	color:#fff;
+	text-transform:capitalize;
+	font-size:16px;
+	font-weight:400;
+}
+
+@media all and (max-width: 768px){
+	.hero-Section{
+		padding:50px 0;
+	}
+	.navbar-default .navbar-toggle{
+		border:none;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background:transparent;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border:none;
+	}
+	.hero-Section .inspiration {
+	   padding:50px 0 0;
+	   text-align:center;
+   }
+   .hero-Section .hero-Info .ipad{
+		 margin:35px 0 0;
+	 }
+	 
+   .ipad img{
+		margin:0 auto;
+		display: block;
+	}
